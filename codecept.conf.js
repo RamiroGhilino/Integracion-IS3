@@ -8,7 +8,7 @@ exports.config = {
       onRequest: () => {
 
       },
-      show: true,
+      show: false,
       browser: 'chromium'
     }
   },
