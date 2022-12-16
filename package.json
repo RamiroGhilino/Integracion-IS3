@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@testomatio/reporter": "^0.7.4",
     "codeceptjs": "^3.3.7",
     "playwright": "^1.28.1"
   }

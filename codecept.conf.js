@@ -32,5 +32,12 @@ exports.config = {
 		  }
 		}
 	},
+  plugins: {
+    testomatio: {
+      enabled: true,
+      require: '@testomatio/reporter/lib/adapter/codecept',
+      apiKey: process.env.TESTOMATIO,
+    }
+  },
   name: 'IntegrationTestForIS3'
 }
